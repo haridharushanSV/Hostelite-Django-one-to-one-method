@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>  Login</title>
+        {% load static %}
+       
+    </head>
+    <body><div class="hedd">
+        <center><h1>MCET NPT HOSTEL</h1></center></div>
+   <div class="center">
+    <h1>Login</h1>
+    <form method="for">
+        <div class="tex"><center>
+        <input type="text" id="user" required>
+        <label>Username</label></center></div>
+        <div class="tex"><center>
+        <input type="password" id="pass" required>
+        <label>password</label></center></div>
+
+        <input type="submit" id="button" onclick="homepage.html"value="Login">
+    </form>
+   </div></body>
+
+
+   <style>
+    body{
+    margin: 0;
+    padding: 0%;
+    font-family: montserrat;
+    
+    width:100%;
+    height:100vh;
+    
+    background-image:linear-gradient(rgba(5, 1, 1, 0.75),rgb(57, 57, 59)),url(' {% load static %}');
+    background-size:cover;}
+.hedd h1{
+    color: white;
+    margin-top: 70px;
+
+}
+.center
+{
+    position: absolute;
+    top: 25%;
+    left: 34%;
+    width: 400px;
+    height: 50%;
+    background: white ;
+    border-radius:10px;
+}
+.center h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid black;
+}
+.center form{
+    padding: 0 40px;
+}
+form .tex{
+    position: relative;
+    
+    margin: 30px 9px;
+    border-radius: none;
+}
+.tex input{
+    width: 80%;
+    cursor:text;
+    border-radius: 5px;
+    border-width:thin;
+    border-inline-color:green;
+    
+}
+.tex label{
+    position: absolute;
+    top:-95%;
+    left:35px;
+    cursor:text;
+opacity: 2;}
+.tex label:hover{
+    opacity: 0;
+    
+}
+
+
+input[type="submit"]
+{
+    width: 100%;
+    height: 50px;
+    border:1px solid;
+    border-radius: 25px;
+    font-size: 18px;
+    
+    color: white;
+    background: #1855aa;
+    cursor: pointer;
+    
+    
+}
+input[type="submit"]:hover{
+    transition: .5s;
+background-color: #0a2347;
+}
+   </style>   </html>
+  

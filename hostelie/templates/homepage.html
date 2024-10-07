@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    {% load static %}
+    <title>HOSTIFY STUDENTS PORTAL</title>
+</head>
+<body>
+    <div class="banner">
+        <div class="nav-bar">
+            <img src="{% static 'img/logo-2.png '%}" class="logo">
+          <nav class="navb">
+                <a href="home">HOME</a>&nbsp
+                <a href="outpass">OUTPASS</a>&nbsp
+                <a href="outing">OUTING</a>&nbsp
+                <a href="feedback">FEEDBACK</a>&nbsp
+              </nav>
+        </div>
+        <div class="content">
+            <h1>WIFI-WEAK FRIENDSHIP STRONG!</h1>
+            <P>Memories with right people always remains priceless.&#9829;
+            </P>
+        </div>
+    </di0v>
+    
+</body>
+<style>
+    
+html { overflow-y: hidden; 
+     overflow-x: hidden; }
+*{
+    margin: 0;
+    padding: 0;
+     font-family: "poppins", sans-serif;
+}
+.banner{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(5, 1, 1, 0.75),rgb(57, 57, 59)),url("{% static 'img/slider1.jpg'%}");
+    background-size:cover;
+    background-position:center;
+    }
+    .nav-bar{
+   height: 30%;
+   width: 100%;
+
+}
+.nav-bar img{
+    position: fixed;
+    top:4%;
+    left: 5%;
+}
+.navb a{
+    color: white;
+    text-decoration: none;
+}
+.navb :hover{
+    color:black;
+    box-shadow: 2px;
+   
+}
+.navb{
+    position: fixed;
+    left: 75%;
+    top:4%;
+}
+.logo{
+    width:120px;
+    cursor:pointer;
+    }
+
+.content{
+    width: 1253px;
+    position:absolute;
+    top:50%;
+  
+    transform:translateY(-50%);
+    text-align:center;
+color:white;
+}
+.content h1{
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content p{
+    font-family: 'Courier New', Courier, monospace;
+}
+</style>
+</html>
