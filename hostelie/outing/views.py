@@ -6,6 +6,6 @@ def index(request):
 		name=request.POST['name']
 		plf=request.POST['plf']
 		
-		user=User.objects.create_user(name=name,plf=plf)
+		user=user.objects.create_user(name=name,plf=plf)
 		user.save();	
 	return render(request,'outing.html')
