@@ -8,7 +8,7 @@
 
 * Then, Git clone this repo to your PC
     ```bash
-        $ gh repo clone haridharushanSV/MCET-Connect-Rest-API
+        $ gh repo clone haridharushanSV/Hostelite-Django-one-to-one-method
     ```
 
 * #### Dependencies
